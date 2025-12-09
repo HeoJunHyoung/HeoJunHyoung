@@ -83,8 +83,11 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=heojunhyoung&show_icons=true&theme=gruvbox&count_private=true" height="150" alt="stats graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=heojunhyoung&layout=compact&theme=gruvbox&hide=html,css" height="150" alt="languages graph" />
-</div>
 
-<br/>
+<!-- GitHub Stats -->
+[![HeoJunHyoung's GitHub stats](https://github-readme-stats.vercel.app/api?username=heojunhyoung&show_icons=true&theme=gruvbox&count_private=true)](https://github.com/heojunhyoung)
+
+<!-- Top Languages -->
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=heojunhyoung&layout=compact&theme=gruvbox&hide=html,css)](https://github.com/heojunhyoung)
+
+</div>
