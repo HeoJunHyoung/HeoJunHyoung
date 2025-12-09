@@ -9,21 +9,23 @@
 안정적인 서비스 운영을 위한 **MSA(Microservices Architecture)** 설계와 **시스템 성능 최적화**에 깊은 관심을 가지고 있습니다.  
 비즈니스 요구사항을 기술적으로 해결하는 과정에서 발생하는 트레이드오프를 분석하고, 데이터 기반의 의사결정을 지향합니다.
 
-<div align="center">
-  <table>
-    <tr>
-      <td><strong>Email</strong></td>
-      <td><a href="mailto:gjwnsgud4016@gmail.com">gjwnsgud4016@gmail.com</a></td>
-    </tr>
-    <tr>
-      <td><strong>Blog</strong></td>
-      <td><a href="https://receiver40.tistory.com">receiver40.tistory.com</a></td>
-    </tr>
-  </table>
-</div>
 
+```java
+public class HeoJunHyoung {
+    private final String email = "gjwnsgud4016@gmail.com";
+    private final String blog = "https://receiver40.tistory.com";
+    
+    public void contact() {
+        System.out.println("Ready to build scalable architecture.");
+    }
+}
+```
 
 ---
+
+
+
+
 
 ## 🛠️ Tech Stack
 
