@@ -16,6 +16,11 @@
 
 <br/>
 
+<a href="mailto:gjwnsgud4016@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="https://receiver40.tistory.com"><img src="https://img.shields.io/badge/Tistory-Blog-000000?style=for-the-badge&logo=tistory&logoColor=white"/></a>
+
+<br/>
+
 ---
 
 ### 🛠️ Tech Stack
@@ -33,9 +38,11 @@
 ![ArgoCD](https://img.shields.io/badge/ArgoCD-GitOps-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-CI-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04%20LTS-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-IaC-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
 
 #### **Data & Messaging**
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-pgvector-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-6.0+-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-Caching-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-CDC-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
@@ -49,9 +56,20 @@
 
 ---
 
-### 🚀 Featured Project
+### 🚀 Featured Projects
 
-#### [🔗 LinkFolio: 개발자 포트폴리오 공유 및 채용 플랫폼](https://github.com/HeoJunHyoung/Linkfolio-backend)
+#### [🔗 GotEEgo: 사용자 성향 맞춤 여행 메이트 추천 플랫폼](https://github.com/heojunhyoung/goteego-backend)
+> **AWS EKS 기반의 클라우드 네이티브 아키텍처와 벡터 검색(Vector Search)을 활용한 개인화 추천 서비스**
+
+| 주요 기능 | 기술적 특징 및 해결 과제 |
+| :--- | :--- |
+| **Vector Search 추천** | • **PostgreSQL pgvector** 확장을 도입하여 사용자 성향(User Embedding)과 여행지 간의 **Cosine Similarity** 연산 구현<br>• 단순 필터링을 넘어선 정교한 취향 기반 매칭 알고리즘 설계 |
+| **Cloud Native Infra** | • **AWS EKS** 환경 위에서 Terraform(IaC)을 활용한 인프라 프로비저닝 및 관리<br>• **ArgoCD**를 활용한 GitOps 파이프라인 구축으로 매니페스트 변경 사항 자동 동기화 |
+| **확장성 있는 채팅** | • **Redis Pub/Sub** 아키텍처를 적용하여 다중 서버(Scale-out) 환경에서의 WebSocket 메시지 동기화 문제 해결<br>• **MongoDB**를 도입하여 대용량 채팅 로그의 쓰기 성능 확보 및 조회 최적화 (Polyglot Persistence) |
+| **성능 최적화** | • **Redis Write-Back 전략**: 게시글 조회수 등 빈번한 쓰기 연산을 메모리에서 처리 후 DB 일괄 반영<br>• **HttpOnly Cookie 핸들링**: 보안을 위한 쿠키 기반 JWT 인증과 WebSocket 핸드셰이크 간의 연동 문제 해결 |
+
+
+#### [🔗 LinkFolio: 개발자 포트폴리오 공유 및 채용 플랫폼](https://github.com/HeoJunHyoung/Linkfolio-backend/tree/dev)
 > **마이크로서비스 아키텍처(MSA) 기반의 대용량 트래픽 처리 시스템**
 
 | 주요 기능 | 기술적 특징 및 해결 과제 |
@@ -59,7 +77,6 @@
 | **하이브리드 인프라** | • VirtualBox VM 기반 **On-Premise Kubernetes 3-Node 클러스터** 직접 구축<br>• 외부 메시징 인프라(Kafka VM)와 K8s 클러스터를 분리한 **Hybrid Cloud Topology** 설계 |
 | **데이터 동기화** | • **Kafka & Debezium(CDC)** 을 활용한 서비스 간 데이터 실시간 동기화<br>• **Transactional Outbox Pattern**을 적용하여 분산 환경에서의 데이터 정합성 보장 (SAGA Pattern) |
 | **고성능 검색/조회** | • **Split Caching Strategy**: 정적 데이터(본문)와 동적 데이터(조회수)의 캐싱 라이프사이클 분리<br>• **Redis Write-Back**: 조회수 등 빈번한 업데이트를 메모리에서 처리 후 배치 동기화 (DB Lock 해소) |
-| **실시간 채팅** | • **WebSocket + STOMP + Redis Pub/Sub** 아키텍처로 다중 서버 환경에서의 메시지 브로드캐스팅 구현<br>• **MongoDB**를 활용한 대용량 채팅 로그 저장 및 조회 최적화 |
 | **성능 최적화** | • **k6 부하 테스트**를 통한 병목 구간 식별 및 튜닝 (조회 성능 73% 개선)<br>• 쿼리 실행 계획 분석을 통한 **복합 인덱스(Composite Index)** 적용 및 Full Table Scan 제거 |
 
 <br/>
@@ -74,9 +91,3 @@
 </div>
 
 <br/>
-
----
-
-### 📫 Contact
-<a href="mailto:gjwnsgud4016@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://receiver40.tistory.com"><img src="https://img.shields.io/badge/Tistory-Blog-000000?style=for-the-badge&logo=tistory&logoColor=white"/></a>
