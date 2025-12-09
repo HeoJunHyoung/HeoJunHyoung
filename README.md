@@ -1,7 +1,6 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:8E2DE2,100:4A00E0&amp;height=220&amp;section=header&amp;text=Heo%20Jun%20Hyoung&amp;fontSize=40&amp;fontColor=FFFFFF&amp;desc=Backend%20%26amp%3B%20DevOps%20Engineer&amp;descSize=20" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:4A00E0&height=220&section=header&text=Crafting%20Reliable%20Backend%20Systems&fontSize=32&fontColor=FFFFFF&desc=MSA%20%7C%20Cloud%20%7C%20DevOps&descSize=18&fontAlignY=35" />
 </div>
-
 
 ## 🧑‍💻 About Me
 
@@ -10,14 +9,19 @@
 안정적인 서비스 운영을 위한 **MSA(Microservices Architecture)** 설계와 **시스템 성능 최적화**에 깊은 관심을 가지고 있습니다.  
 비즈니스 요구사항을 기술적으로 해결하는 과정에서 발생하는 트레이드오프를 분석하고, 데이터 기반의 의사결정을 지향합니다.
 
-<br/>
-
 <div align="center">
-  <a href="mailto:gjwnsgud4016@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://receiver40.tistory.com"><img src="https://img.shields.io/badge/Tistory-Blog-000000?style=for-the-badge&logo=tistory&logoColor=white"/></a>
+  <table>
+    <tr>
+      <td><strong>Email</strong></td>
+      <td><a href="mailto:gjwnsgud4016@gmail.com">gjwnsgud4016@gmail.com</a></td>
+    </tr>
+    <tr>
+      <td><strong>Blog</strong></td>
+      <td><a href="https://receiver40.tistory.com">receiver40.tistory.com</a></td>
+    </tr>
+  </table>
 </div>
 
-<br/>
 
 ---
 
