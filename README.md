@@ -82,12 +82,10 @@
 
 ## 📊 GitHub Stats
 
-<div align="center">
+<p align="center">
+  <img height="180em" 
+       src="https://github-readme-stats-psi-three-58.vercel.app/api?username=heojunhyoung&show_icons=true&theme=dark" />
+  <img height="180em" 
+       src="https://github-readme-stats-psi-three-58.vercel.app/api/top-langs/?username=heojunhyoung&layout=compact&hide=jupyter%20notebook,python&theme=dark" />
+</p>
 
-<!-- GitHub Stats -->
-[![HeoJunHyoung's GitHub stats](https://github-readme-stats.vercel.app/api?username=heojunhyoung&show_icons=true&theme=gruvbox&count_private=true)](https://github.com/heojunhyoung)
-
-<!-- Top Languages -->
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=heojunhyoung&layout=compact&theme=gruvbox&hide=html,css)](https://github.com/heojunhyoung)
-
-</div>
