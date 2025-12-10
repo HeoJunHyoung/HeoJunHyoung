@@ -62,6 +62,18 @@ public class HeoJunHyoung {
 
 ## 🚀 Featured Projects
 
+### [🔗 LinkFolio: 개발자 포트폴리오 공유 및 채용 플랫폼](https://github.com/HeoJunHyoung/Linkfolio-backend/tree/dev)
+> **MSA 기반 대용량 트래픽 처리 시스템**
+
+| 주요 기능 | 기술적 특징 및 해결 과제 |
+| :--- | :--- |
+| **하이브리드 인프라** | • VirtualBox VM 기반 **On-Premise Kubernetes 3-Node 클러스터** 직접 구축<br>• 외부 메시징 인프라(Kafka VM)와 K8s 클러스터를 분리한 **Hybrid Cloud Topology** 설계 |
+| **데이터 동기화** | • **Kafka & Debezium(CDC)** 을 활용한 서비스 간 데이터 실시간 동기화<br>• **Transactional Outbox Pattern**을 적용하여 분산 환경에서 데이터 정합성 보장 (SAGA Pattern) |
+| **고성능 검색/조회** | • **Split Caching Strategy**: 정적 데이터(본문)와 동적 데이터(조회수)의 캐싱 라이프사이클 분리<br>• **Redis Write-Back**: 조회수 등 빈번한 업데이트를 메모리에서 처리 후 배치 동기화 (DB Lock 해소) |
+| **성능 최적화** | • **k6 부하 테스트**를 통한 병목 구간 식별 및 튜닝 (조회 성능 73% 개선)<br>• 쿼리 실행 계획 분석을 통한 **복합 인덱스(Composite Index)** 적용 및 Full Table Scan 제거 |
+
+<br/>
+
 ### [🔗 GotEEgo: 사용자 성향 맞춤 여행 메이트 추천 플랫폼](https://github.com/heojunhyoung/goteego-backend/tree/dev)
 > **AWS EKS 기반 클라우드 네이티브 아키텍처와 벡터 검색을 활용한 개인화 추천 서비스**
 
@@ -72,15 +84,17 @@ public class HeoJunHyoung {
 | **확장성 있는 채팅** | • **Redis Pub/Sub** 아키텍처를 적용하여 다중 서버 환경에서 WebSocket 메시지 동기화 문제 해결<br>• **MongoDB**를 도입하여 대용량 채팅 로그 쓰기 성능 확보 및 조회 최적화 (Polyglot Persistence) |
 | **성능 최적화** | • **Redis Write-Back 전략**: 게시글 조회수 등 빈번한 쓰기 연산을 메모리에서 처리 후 DB 일괄 반영<br>• **HttpOnly Cookie 핸들링**: 보안을 위한 쿠키 기반 JWT 인증과 WebSocket 핸드셰이크 간 연동 문제 해결 |
 
-### [🔗 LinkFolio: 개발자 포트폴리오 공유 및 채용 플랫폼](https://github.com/HeoJunHyoung/Linkfolio-backend/tree/dev)
-> **MSA 기반 대용량 트래픽 처리 시스템**
+<br/>
+
+### [🔗 Vinyl Groove: 재즈 LP 수집가를 위한 이커머스 플랫폼](https://github.com/HeoJunHyoung/vinyl-groove-backend/tree/dev)
+> **대용량 트래픽 상황에서의 동시성 제어와 실시간 랭킹 시스템 최적화**
 
 | 주요 기능 | 기술적 특징 및 해결 과제 |
 | :--- | :--- |
-| **하이브리드 인프라** | • VirtualBox VM 기반 **On-Premise Kubernetes 3-Node 클러스터** 직접 구축<br>• 외부 메시징 인프라(Kafka VM)와 K8s 클러스터를 분리한 **Hybrid Cloud Topology** 설계 |
-| **데이터 동기화** | • **Kafka & Debezium(CDC)** 을 활용한 서비스 간 데이터 실시간 동기화<br>• **Transactional Outbox Pattern**을 적용하여 분산 환경에서 데이터 정합성 보장 (SAGA Pattern) |
-| **고성능 검색/조회** | • **Split Caching Strategy**: 정적 데이터(본문)와 동적 데이터(조회수)의 캐싱 라이프사이클 분리<br>• **Redis Write-Back**: 조회수 등 빈번한 업데이트를 메모리에서 처리 후 배치 동기화 (DB Lock 해소) |
-| **성능 최적화** | • **k6 부하 테스트**를 통한 병목 구간 식별 및 튜닝 (조회 성능 73% 개선)<br>• 쿼리 실행 계획 분석을 통한 **복합 인덱스(Composite Index)** 적용 및 Full Table Scan 제거 |
+| **재고 동시성 제어** | • Redisson 분산 락(Distributed Lock)을 도입하여 다중 서버 환경에서 재고 차감의 원자성 보장 (Race Condition 해결)<br>• **k6 부하 테스트**를 통해 100명 동시 요청 시 정확한 재고 차감 검증 (Overselling 0건 달성) |
+| **실시간 랭킹 시스템** | • Redis Sorted Set (ZSet)을 활용하여 주문 발생 시 판매량 실시간 집계 및 점수 산정 (O(1))<br>• DB 정렬 부하 없이 **reverseRangeWithScores**로 Top 5 인기 상품 즉시 조회 구현 |
+| **분산 환경 세션** | •  Spring Session Data Redis를 적용하여 Scale-out 환경에서도 정합성 있는 로그인 세션 유지<br>• **Redis Caching** 전략(`Look Aside`)을 통해 주문 내역 등 고빈도 조회 데이터의 응답 속도 개선 |
+
 
 <br/>
 
