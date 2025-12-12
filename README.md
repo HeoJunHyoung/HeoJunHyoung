@@ -62,7 +62,7 @@ public class HeoJunHyoung {
 
 ## 🚀 Featured Projects
 
-### [🔗 LinkFolio: 개발자 포트폴리오 공유 및 채용 플랫폼](https://github.com/HeoJunHyoung/Linkfolio-backend/tree/dev)
+### [🔗 LinkFolio: 개발자 포트폴리오 공유 및 채용 플랫폼](https://github.com/HeoJunHyoung/Linkfolio-backend)
 > **MSA 기반 대용량 트래픽 처리 시스템**
 
 | 주요 기능 | 기술적 특징 및 해결 과제 |
@@ -74,7 +74,7 @@ public class HeoJunHyoung {
 
 <br/>
 
-### [🔗 GotEEgo: 사용자 성향 맞춤 여행 메이트 추천 플랫폼](https://github.com/heojunhyoung/goteego-backend/tree/dev)
+### [🔗 GotEEgo: 사용자 성향 맞춤 여행 메이트 추천 플랫폼](https://github.com/heojunhyoung/goteego-backend)
 > **AWS EKS 기반 클라우드 네이티브 아키텍처와 벡터 검색을 활용한 개인화 추천 서비스**
 
 | 주요 기능 | 기술적 특징 및 해결 과제 |
@@ -86,7 +86,7 @@ public class HeoJunHyoung {
 
 <br/>
 
-### [🔗 Vinyl Groove: 재즈 LP 수집가를 위한 이커머스 플랫폼](https://github.com/HeoJunHyoung/vinyl-groove-backend/tree/dev)
+### [🔗 Vinyl Groove: 재즈 LP 수집가를 위한 이커머스 플랫폼](https://github.com/HeoJunHyoung/vinyl-groove-backend)
 > **대용량 트래픽 상황에서의 동시성 제어와 실시간 랭킹 시스템 최적화**
 
 | 주요 기능 | 기술적 특징 및 해결 과제 |
