@@ -1,13 +1,12 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:4A00E0&height=220&section=header&text=Crafting%20Reliable%20Backend%20Systems&fontSize=32&fontColor=FFFFFF&desc=MSA%20%7C%20Cloud%20%7C%20DevOps&descSize=18&fontAlignY=35" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:4A00E0&height=220&section=header&text=Crafting%20Reliable%20Backend%20Systems&fontSize=32&fontColor=FFFFFF&desc=MSA%20%7C%20Performance%20%7C%20Testing&descSize=18&fontAlignY=35" />
 </div>
 
 ## 🧑‍💻 About Me
 
-> **"확장 가능한 아키텍처와 대용량 트래픽 처리에 집중하는 백엔드 개발자입니다."**
+> **"검증 가능한 성능과 안정성을 중시하는 백엔드 개발자입니다."**
 
-안정적인 서비스 운영을 위한 **MSA(Microservices Architecture)** 설계와 **시스템 성능 최적화**에 깊은 관심을 가지고 있습니다.  
-비즈니스 요구사항을 기술적으로 해결하는 과정에서 발생하는 트레이드오프를 분석하고, 데이터 기반의 의사결정을 지향합니다.
+안정적인 서비스 운영을 위한 **MSA(Microservices Architecture)** 설계와 **시스템 성능 튜닝**에 깊은 관심을 가지고 있습니다. 단순한 기능 구현을 넘어, **테스트**와 **모니터링**을 통한 **데이터 기반 의사결정**을 지향하며, 실제 운영 환경에서 검증된 솔루션을 구현합니다.
 
 
 ```java
@@ -50,6 +49,7 @@ public class HeoJunHyoung {
 ![MongoDB](https://img.shields.io/badge/MongoDB-6.0+-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-Caching-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-EDA-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
+![Elastic Search](https://img.shields.io/badge/ElasticSearch-8.x-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
 
 ### **Testing & Monitoring**
 ![k6](https://img.shields.io/badge/k6-Load%20Testing-7D64FF?style=for-the-badge&logo=k6&logoColor=white)
