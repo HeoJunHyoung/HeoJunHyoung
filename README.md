@@ -11,7 +11,7 @@
 
 ```java
 public class HeoJunHyoung {
-    private final String email = "gjwnsgud4016@gmail.com";
+    private final String email = "junhyoung.heo@gmail.com";
     private final String blog = "https://receiver40.tistory.com";
     
     public void contact() {
