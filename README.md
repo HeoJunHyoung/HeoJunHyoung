@@ -1,13 +1,14 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:4A00E0&height=220&section=header&text=Crafting%20Reliable%20Backend%20Systems&fontSize=32&fontColor=FFFFFF&desc=MSA%20%7C%20Performance%20%7C%20Testing&descSize=18&fontAlignY=35" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:4A00E0&height=220&section=header&text=Engineering%20Scalable%20/%20Reliable%20Systems&fontSize=32&fontColor=FFFFFF&desc=Backend%20%7C%20DevOps%20%7C%20Cloud%20Infrastructure&descSize=18&fontAlignY=35" />
 </div>
 
 ## 🧑‍💻 About Me
 
-> **"검증 가능한 성능과 안정성을 중시하는 백엔드 개발자입니다."**
+> **"애플리케이션 코드부터 클라우드 인프라까지, 시스템 전반의 안정성과 최적화를 고민하는 엔지니어입니다."**
 
-안정적인 서비스 운영을 위한 **MSA(Microservices Architecture)** 설계와 **시스템 성능 튜닝**에 깊은 관심을 가지고 있습니다. 단순한 기능 구현을 넘어, **테스트**와 **모니터링**을 통한 **데이터 기반 의사결정**을 지향하며, 실제 운영 환경에서 검증된 솔루션을 구현합니다.
+백엔드 개발 경험을 바탕으로 시스템의 아키텍처를 깊이 있게 이해하며, 안정적이고 확장 가능한 **Cloud 인프라 구축**과 <b>GitOps 기반의 배포 자동화(CI/CD)</b>에 강점을 가지고 있습니다.
 
+단순한 환경 구축을 넘어, **k6 부하 테스트**와 **Prometheus·Grafana 모니터링**을 통한 **지표 기반의 성능 개선**을 지향합니다. 대용량 트래픽과 분산 환경에서도 멈추지 않는 아키텍처를 설계하고 운영하는 데 몰입하고 있습니다.
 
 ```java
 public class HeoJunHyoung {
@@ -15,7 +16,7 @@ public class HeoJunHyoung {
     private final String blog = "https://receiver40.tistory.com";
     
     public void contact() {
-        System.out.println("Ready to build scalable architecture.");
+        System.out.println("From code to cloud. Let's build scalable systems.");
     }
 }
 ```
